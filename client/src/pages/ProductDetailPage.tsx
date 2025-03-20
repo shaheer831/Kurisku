@@ -87,6 +87,7 @@ const ProductDetailPage = () => {
                   <div className="absolute inset-0 flex items-center justify-center text-gray-400 text-xs">
                     Thumb {index + 1}
                   </div>
+                  <img hidden src={image} alt="" />
                 </button>
               ))}
             </div>
